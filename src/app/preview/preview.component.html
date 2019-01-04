@@ -1,0 +1,124 @@
+
+
+
+
+ <!--<html >
+    <ng-template ngFor let-d [ngForOf]= "data" let-i="index"  >
+	<body style="font-family:Arial;padding:0px;margin:0px" class="img-fluid img-thumbnail">
+	<iframe style="width:100%;height:40%" [src]="dom.bypassSecurityTrustResourceUrl(d.videoUrl)" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+	<div style="width:100%;background-color:#f9f9f9;color:#9b9b9b;margin-top:-3px;padding:20px 0;text-align:center;text-transform:uppercase;border-color:#d4d4d4;border-width:3px;border-style:solid;border-left-style:none;border-right-style:none"> 
+	<b>{{ d.title }}</b>
+	</div>
+	<div>
+	<div style="width:49%">
+	<img style="width:32px;height:32px;float:left" src="assets/images/date.svg" />
+	<div style="color:#0d71bc;height:31px;float:left;margin-top:6px" id="__date"></div> 
+	</div> <div style="width:49%;float:left;margin-left:32px">
+	<img style="width:32px;height:32px;float:left" src="assets/images/location.jpg" /> 
+	<div style="color:#0d71bc;height:32px;float:left;margin-top:6px" id="__start">15:45</div> 
+	<div style="color:#0d71bc;height:32px;float:left;margin-top:6px;margin-left:2px;" id="__end">15:45</div> 
+	</div>
+	<div style="width:90%;float:left;">
+	<img style="width:32px;height:32px;float:left" src="assets/images/time.svg" />
+	<div style="color:#0d71bc;height:32px;float:left;margin-top:6px">{{ d.address }}</div>
+	</div>
+	</div>
+	<div style="float:left;padding:3%;border-top-style:solid;border-width:2px;border-color:#d4d4d4" >
+	<p> {{ d.message }} </p>
+	</div>
+	</body>
+	<script> var months = ["Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sep","Oct","Nov","Dec"]; 
+	var ds = new Date('{{start}}'); var de = new Date('{{end}}'); var d = document.getElementById("__date");
+	var st = document.getElementById("__start"); var et = document.getElementById("__end"); var startMinutes = ds.getMinutes(); 
+	var endMinutes = de.getMinutes(); if(ds.getMinutes() < 10){ startMinutes = 0+''+ds.getMinutes(); } 
+	if(de.getMinutes() < 10){ endMinutes = 0+''+de.getMinutes(); } 
+	d.innerText = ds.getDate() + ' ' + months[ds.getMonth()] + ' ' + ds.getFullYear();
+	st.innerText = ds.getHours() + ':' + startMinutes; et.innerText = ' -'+ de.getHours() + ':' + endMinutes;
+  </script>
+  </ng-template>
+  </html>-->
+  
+
+<!--  <html id="sample_template">	
+<script src=" http://cdnjs.cloudflare.com/ajax/libs/mustache.js/0.7.2/mustache.min.js"></script>
+
+<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.6.2/jquery.min.js"> </script>
+
+<body style="font-family:Arial;padding:0px;margin:0px" >
+       
+ <iframe style="width:100%;height:40%" src=" {{videoUrl}} " frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe> 
+ <div style="width:100%;background-color:#f9f9f9;color:#9b9b9b;margin-top:-3px;padding:20px 0;text-align:center;text-transform:uppercase;border-color:#d4d4d4;border-width:3px;border-style:solid;border-left-style:none;border-right-style:none"> 
+ <b>{{ title }}</b> </div> <div> <div style="width:49%">
+ <img style="width:32px;height:32px;float:left" src="" />
+ <div style="color:#0d71bc;height:31px;float:left;margin-top:6px" id="__date"></div> </div> <div style="width:49%;float:left;margin-left:32px">
+ <img style="width:32px;height:32px;float:left" src="" />
+ <div style="color:#0d71bc;height:32px;float:left;margin-top:6px" id="__start">15:45</div>
+ <div style="color:#0d71bc;height:32px;float:left;margin-top:6px;margin-left:2px;" id="__end">15:45</div> </div> 
+ <div style="width:90%;float:left;"> 
+ <img style="width:32px;height:32px;float:left" src="" />
+ <div style="color:#0d71bc;height:32px;float:left;margin-top:6px">{{ address }}</div> </div>	</div> 
+ <div style="float:left;padding:3%;border-top-style:solid;border-width:2px;border-color:#d4d4d4" >
+ <p> {{message }} </p> </div>
+
+</body> 
+<script   >
+  var months = ["Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sep","Oct","Nov","Dec"];
+ var ds = new Date( '{{start}}' );
+ var de = new Date( '{{end}}' );
+ var d = document.getElementById("__date").value;
+ var st = document.getElementById("__start").value;
+ var et = document.getElementById("__end").value;
+ var startMinutes = ds.getMinutes();
+ var endMinutes = de.getMinutes(); if(ds.getMinutes() < 10){ startMinutes = 0+''+ds.getMinutes();
+ } 
+ if(de.getMinutes() < 10)
+ { 
+ endMinutes = 0+''+de.getMinutes();
+ } 
+ d.innerText = ds.getDate() + ' ' + months[ds.getMonth()] + ' ' + ds.getFullYear(); st.innerText = ds.getHours() + ':' + startMinutes;
+ et.innerText = ' -'+ de.getHours() + ':' + endMinutes;
+ </script>
+ 
+
+ </html>-->
+
+
+
+ <!--<div id="first"></div>
+ <script src=" http://cdnjs.cloudflare.com/ajax/libs/mustache.js/0.7.2/mustache.min.js"></script>
+
+
+ <script type="text/template" id="first-template" >
+	{{#data }}
+  <div  class="img-fluid img-thumbnail">
+	<iframe style="width:100%;height:40%" src="{{ videoUrl }}" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe> 
+	<div style="width:100%;background-color:#f9f9f9;color:#9b9b9b;margin-top:-3px;padding:20px 0;text-align:center;text-transform:uppercase;border-color:#d4d4d4;border-width:3px;border-style:solid;border-left-style:none;border-right-style:none"> 
+			<b>{{ title }}</b> </div> <div> <div style="width:49%">
+			<img style="width:32px;height:32px;float:left" src="" />
+			<div style="color:#0d71bc;height:31px;float:left;margin-top:6px" id="__date"></div> </div> <div style="width:49%;float:left;margin-left:32px">
+			<img style="width:32px;height:32px;float:left" src="" />
+			<div style="color:#0d71bc;height:32px;float:left;margin-top:6px" id="__start">15:45</div>
+			<div style="color:#0d71bc;height:32px;float:left;margin-top:6px;margin-left:2px;" id="__end">15:45</div> </div> 
+			<div style="width:90%;float:left;"> 
+			<img style="width:32px;height:32px;float:left" src="" />
+			<div style="color:#0d71bc;height:32px;float:left;margin-top:6px">{{ address }}</div> </div>	</div> 
+			<div style="float:left;padding:3%;border-top-style:solid;border-width:2px;border-color:#d4d4d4" >
+			<p> {{{ message }}} </p> </div>
+ </div>  
+	{{/data}}
+  </script>-->
+
+
+  <!--<div class="blog-post" [innerHtml]="testhtml"></div>-->
+
+
+
+<!--<div>
+  <div [innerHtml]="service.previewData" class="img-fluid img-thumbnail"></div>
+  </div>-->
+			
+		
+	
+	
+		 
+		 

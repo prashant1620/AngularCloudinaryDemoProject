@@ -1,0 +1,130 @@
+
+.example-container {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+  }
+  
+  .example-is-mobile .example-toolbar {
+    position: fixed;
+    /* Make sure the toolbar will stay on top of the content as it scrolls past. */
+    z-index: 2;
+    //background-color: skyblue;
+  }
+  
+  h1.example-app-name {
+    margin-left: 8px;
+  }
+  
+  .example-sidenav-container {
+    /* When the sidenav is not fixed, stretch the sidenav container to fill the available space. This
+       causes `<mat-sidenav-content>` to act as our scrolling element for desktop layouts. */
+    flex: 1;
+  }
+  
+  .example-is-mobile .example-sidenav-container {
+    /* When the sidenav is fixed, don't constrain the height of the sidenav container. This allows the
+       `<body>` to be our scrolling element for mobile layouts. */
+    flex: 1 0 auto;
+  }
+  .example-toolbar{
+   background-color: skyblue;
+  }
+  .sidenav{
+    background-color:#6495ED; 
+  }
+
+
+  .plain-container{
+    margin-left:100px;
+  }
+  
+  .plain-container > .image{
+    margin-bottom: 3px;
+    
+   
+   
+   
+  }
+  
+  custom-image > .more-image{
+    position: absolute;
+    margin: 0px;
+    word-break: break-word;
+    background: rgba(0, 0, 0, 0.7);
+    height: 80px;
+    width: 80px;
+    color:white;
+    text-align: center;
+    cursor: pointer;
+  }
+  
+  .custom-image > .more-image > label {
+    top: 5rem;
+    position: fixed;
+    font-size: 55px;
+    margin: 8px;
+    background-color:rgba(0, 0, 0, 0.7);
+    width: 80px;
+    height: 80px;
+    text-align: center;
+  }
+
+  .buttons{
+    ///padding-right: 50px;
+    margin-left: 1000px;
+   }
+  
+  .nbcard{
+    margin-left: 50px;
+    font-size: 30px;
+  }
+   nb-tab{
+    padding: 1.25rem;
+   // background-color:lightblue;
+  }
+
+  nb-layout-column {
+    height: 80vw;
+  }
+ /* .nbcard{
+    background-color: tan;
+    color: black;
+  }*/
+  /* On screens that are 992px wide or less, the background color is blue */
+/*@media screen and (max-width: 992px) {
+  .nbcard {
+      background-color: blue;
+      color: white;
+  }
+}*/
+
+/* On screens that are 600px wide or less, the background color is olive */
+/*@media screen and (max-width: 600px) {
+  .nbcard {
+      background-color: olive;
+      color: white;
+  }
+}*/
+
+/*mat-sidenav-content{
+  background-color: tan;
+  color: black;
+}
+
+@media screen and (max-width: 992px) {
+  mat-sidenav-content {
+    background-color: blue;
+  }
+}
+
+
+@media screen and (max-width: 600px) {
+  mat-sidenav-content {
+    background-color: olive;
+  }
+}*/

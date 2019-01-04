@@ -1,0 +1,7 @@
+
+
+ <ace-editor
+       [(text)]="service.htmlData"
+       style="min-height: 400px; width:80%; overflow: auto;"
+       class="code-editor" [(ngModel)]="service.htmlData" (ngModelChange)="service.checkForChange()">
+      </ace-editor>

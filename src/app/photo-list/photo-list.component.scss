@@ -1,0 +1,109 @@
+//.photo { margin: 10px; padding: 10px; border-top: 2px solid #ccc; }
+.photo .thumbnail { margin-top: 10px; display: block; max-width: 200px; border: none; }
+.toggle_info { margin-top: 10px; font-weight: bold; color: #e62401; display: block; }
+.thumbnail_holder { height: 182px; margin-bottom: 5px; margin-right: 10px; }
+.info td, .uploaded_info td { font-size: 12px }
+.note { margin: 20px 0}
+
+
+
+.photo{
+    width: 100px;
+    margin: 10px;
+    padding: 10px;
+    //margin-top:-235px;
+    padding-left: 168px;
+}
+
+.nbcard{
+    font-size: 50px;
+}
+
+.plain-container{
+    margin-left:100px;
+  }
+  
+  .plain-container > .image{
+    margin-bottom: 3px;
+    
+   
+   
+   
+  }
+  
+  custom-image > .more-image{
+    position: absolute;
+    margin: 0px;
+    word-break: break-word;
+    background: rgba(0, 0, 0, 0.7);
+    height: 80px;
+    width: 80px;
+    color:white;
+    text-align: center;
+    cursor: pointer;
+  }
+  
+  .custom-image > .more-image > label {
+    top: 5rem;
+    position: fixed;
+    font-size: 55px;
+    margin: 8px;
+    background-color:rgba(0, 0, 0, 0.7);
+    width: 80px;
+    height: 80px;
+    text-align: center;
+  }
+  .upload_button{
+      
+    top: 5rem;
+    position: fixed;
+    font-size: 55px;
+    margin: 8px;
+    background-color:rgba(0, 0, 0, 0.7);
+    width: 150px;
+    height:150px;
+    text-align: center;
+  }
+
+  .profile-pic {
+    position: relative;
+    display: inline-block;
+  }
+
+  .profile-pic:hover .edit {
+    display: block;
+  }
+  
+  .edit {
+    padding-top: 7px;	
+    padding-right: 7px;
+    position: absolute;
+    right: 0;
+    top: 0;
+    display: none;
+  }
+  
+  .edit a {
+    color: #000;
+  }
+ body{
+
+  background-color: tan;
+  color: black;
+  
+}
+/* On screens that are 992px wide or less, the background color is blue */
+@media screen and (max-width: 992px) {
+  body {
+    background-color: blue;
+    color: white;
+  }
+}
+
+/* On screens that are 600px wide or less, the background color is olive */
+@media screen and (max-width: 600px) {
+  body {
+    background-color: olive;
+    color: white;
+  }
+}

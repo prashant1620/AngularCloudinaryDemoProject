@@ -1,0 +1,46 @@
+<!--<label class="upload_button" for="fileupload">+</label>-->
+<body>
+<div class="img-fluid img-thumbnail" *ngFor="let photo of photos | async; let i=index">
+   <cl-image  class="w3-row" public-id={{photo.public_id}} >
+     <cl-transformation height="150" width="150" crop="fill" >
+      </cl-transformation>
+       </cl-image>
+        <mat-icon  (click)="deleteImages(photo.public_id)">delete</mat-icon>
+      </div>
+      </body>
+  <hr>
+<hr>
+<!--<div class="img-fluid img-thumbnail" *ngFor="let photo of photos | async">
+<video loop autoplay>
+  <source src="{{photo.public_id}}"type="video/mp4"/>
+</video>
+</div>-->
+
+
+     <!--<div class="img-fluid img-thumbnail" *ngFor="let photo of photos | async">
+
+      <cl-video public-id={{photo.public_id}} >
+        <cl-transformation width="300" height="200" crop="crop">
+        </cl-transformation>
+      </cl-video>
+         
+         <button class="btn btn-primary"  (click)="deleteImages(photo.public_id)">Delete</button>
+          
+       </div>-->
+
+  
+
+<!--<ks-modal-gallery [id]="35" [modalImages]="images"
+                    [buttonsConfig]="buttonsConfigFull"
+                    (show)="onVisibleIndex($event)"
+                    (download)="onDownload($event)"
+                    (buttonBeforeHook)="onButtonBeforeHook($event)"
+                    (buttonAfterHook)="onButtonAfterHook($event)"></ks-modal-gallery>
+ <!--<ks-modal-gallery  
+              [id]="35" [modalImages]="images"
+               
+                                [buttonsConfig]="buttonsConfigFull"
+                                [plainGalleryConfig]="plainGalleryGrid"
+                               ></ks-modal-gallery>-->
+
+                              

@@ -1,0 +1,41 @@
+{
+    "data":[
+        {
+            "title":"Preview Gallery",
+          "address": "World of Golf",
+          "category": "Sport & Recreation",
+           "created": 1536061041218,
+           "createdDate": "2018-09-04T11:37:21.218Z",
+             "description": "World of Golf Event",
+                  "end" : 1538218856000,
+                "hasButtons": false,
+                "videoUrl": "https://www.youtube.com/embed/PUBnlbjZFAI"
+        },{
+          
+          "title":"Preview Gallery",
+          "address": "World of Golf",
+          "category": "Sport & Recreation",
+           "created": 1536061041218,
+           "createdDate": "2018-09-04T11:37:21.218Z",
+             "description": "World of Golf Event",
+                  "end" : 1538218856000,
+                "hasButtons": false,
+                "videoUrl": "https://www.youtube.com/embed/SOa0ei3-irM"
+        
+        },
+        {
+          "title":"Preview Gallery",
+          "address": "World of Golf",
+          "category": "Sport & Recreation",
+           "created": 1536061041218,
+           "createdDate": "2018-09-04T11:37:21.218Z",
+             "description": "World of Golf Event",
+                  "end" : 1538218856000,
+                  "message": "<div><!--block--><strong>We are proud to announce</strong> that for the first time, Waterfall City will play host to the third edition of the Barron Corporate Run4Good on Thursday, 25th October 2018. This 5km run<strong> </strong>is the perfect team building event with live entertainment as well as food and drinks after the run. Get your colleagues involved for an evening of fun! Bring family and friends along too for support and to enjoy the after-race festivities. Register online at <a href=\"https://www.corporaterun4good.co.za/en/\">https://www.corporaterun4good.co.za/en/</a>&nbsp;</div><div><!--block-->&nbsp;</div><div><!--block-->HOW DOES THE RACE WORK?</div><div><!--block-->Companies, businesses, departments, societies, clubs or groups enter as many teams of six as they like. Participants must be at least 18 years of age. Each participant is awarded a unique race number and timing chip, which must be attached to their running shirt. All participants will start at the same time. All participants will complete the 5km route – walkers, fast walkers, joggers and runners are all welcome. Finishing times will be registered by our systems and will be available on our website after the event. The best four times will be used to calculate the team’s overall position. After the run, there will be a prize giving on stage followed by live entertainment that all participants and spectators can enjoy.&nbsp;</div>",
+
+                "hasButtons": false,
+                "videoUrl": "https://www.youtube.com/embed/PUBnlbjZFAI"
+        }
+
+    ]
+}

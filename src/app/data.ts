@@ -1,0 +1,66 @@
+export class Data{
+    _id?:string
+    title:string
+    description:string
+    modified:number
+    created:number
+    address:string
+    targets:string
+    all:boolean
+    venue:string
+    start:number
+    end:number
+    category:string
+    message:string
+    videoUrl:string
+    imageUrl:string
+    status:string
+    attending:boolean
+    interested:boolean
+    isBanner:boolean
+    userId:string
+
+    constructor( _id:string,
+        title:string,
+        description:string,
+        modified:number,
+        created:number,
+        address:string,
+        targets:string,
+        all:boolean,
+        venue:string,
+        start:number,
+        end:number,
+        category:string,
+        message:string,
+        videoUrl:string,
+        imageUrl:string,
+        status:string,
+        attending:boolean,
+        interested:boolean,
+        isBanner:boolean,
+        userId:string){
+          
+              this._id=_id;
+              this.title=title;
+              this.address=address;
+              this.all=all;
+              this.attending=attending;
+              this.category=category;
+              this.created=created;
+              this.description=description;
+              this.end=end;
+              this.imageUrl=imageUrl;
+              this.videoUrl=videoUrl;
+              this.interested=interested;
+              this.message=message;
+              this.isBanner=isBanner;
+              this.modified=modified;
+              this.status=status;
+              this.start=start;
+              this.userId=userId;
+              this.targets=targets;
+              this.venue=venue
+    }
+
+}
